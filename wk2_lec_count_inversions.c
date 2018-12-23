@@ -75,7 +75,7 @@ int merge_and_count_split_inv(int inp_array[], int temp_array[], int left, int m
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    int *temp;
+    int *temp = NULL;
     int inv_count;
     int array_size = 8;
     int input_array[8] = {1, 3, 7, 9, 5, 2, 4, 6};
@@ -83,5 +83,9 @@ int main(int argc, const char * argv[]) {
     
     inv_count = sort_and_count(input_array, temp, 0, array_size-1);
     printf("The result is %d \n", inv_count);
+    if(temp!=NULL)
+    {
+        free(temp);
+    }
     return 0;
 }
