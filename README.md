@@ -4,7 +4,7 @@
 ### course1 week3: quick sort
 ### course1 week4: karger's minimum cut
 
-### course2 week1: kosoraju scc
+### course2 week1: kosaraju scc
 ### course2 week2: dijkstra
 ### course2 week3: median maintain with heap
 ### course2 week4: two sums
