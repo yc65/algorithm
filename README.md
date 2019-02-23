@@ -15,6 +15,7 @@
 ### course3 week4: knapsack; optimal binary search tree
 
 ### course4 week1: bellman-ford floyd-warshall johnson(with dijkstra)
-### course4 week2: traveler salesman problem
+### course4 week2: traveler salesman problem - dp optimal approach
+### course4 week3: traverler salesman problem - approximation approach
 
 ### ...
